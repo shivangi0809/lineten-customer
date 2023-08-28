@@ -1,0 +1,8 @@
+{
+    "html":{
+        "enabled": true
+    },
+    "stepDefinitions":[
+        "cypress/e2e/stepDef/*.js"
+    ]
+}
