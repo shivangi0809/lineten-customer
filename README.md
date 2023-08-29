@@ -14,11 +14,11 @@ npm run cypress:execution
 1. Create new or select an existing docker image where the above project needs to be executed.
    
 2. Creation of new docker image can be achieved through below command:
-   docker build -t <dockerImageName> .
+docker build -t <dockerImageName> .
 
 3. Check whether above selected docker image is downloads succesfully or not via below command:
-   docker image ls
+docker image ls
    
 4. Run the container:
-   docker run -i -t <dockerImageName> cypress run --spec cypress/e2e/features/api.feature —browser <browserName> 
+docker run -i -t <dockerImageName> cypress run --spec cypress/e2e/features/api.feature —browser <browserName> 
   
