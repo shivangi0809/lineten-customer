@@ -3,14 +3,14 @@
 # Install project locally
 Install project dependencies with npm i
 
-# run the program locally
+# Run the project locally
 Use below command in order to run the feature file using headed mode on cypress:
 npx cypress open
 
-use below command in order to run the feature file headless mode on cypress:
+Use below command in order to run the feature file headless mode on cypress:
 npm run cypress:execution
 
-# Run the program through Docker:
+# Run the project through Docker:
 1. Create new or select an existing docker image where the above project needs to be executed.
    
 2. Creation of new docker image can be achieved through below command:
