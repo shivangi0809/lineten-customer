@@ -21,4 +21,4 @@ docker image ls
    
 4. Run the container:
 docker run -i -t <dockerImageName> cypress run --spec cypress/e2e/features/api.feature —browser <browserName> 
-  
+ 
